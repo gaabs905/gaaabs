@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-checkout]').forEach(btn=>btn.addEventListener('click',e=>{e.preventDefault();alert('Checkout ainda não configurado. Adicione aqui o link real de pagamento da oferta.');}));
